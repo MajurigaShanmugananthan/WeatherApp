@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".Detail">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="?attr/colorPrimary"
+        android:gravity="left|bottom"
+        android:text="Detail View"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtDate2"
+    android:gravity="center"
+    android:text="date"
+    android:textSize="30sp"
+    android:layout_marginTop="40dp"/>
+
+<ImageView
+    android:id="@+id/imgIcon2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="50dp"
+    android:src="@drawable/pic_01d"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtTemp2"
+    android:gravity="center"
+    android:text="temperature"
+    android:textSize="30sp"
+    android:layout_marginTop="40dp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtDes2"
+    android:gravity="center"
+    android:text="description"
+    android:textSize="30sp"
+    android:layout_marginTop="40dp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtHumidity2"
+    android:gravity="center"
+    android:text="humidity"
+    android:textSize="30sp"
+    android:layout_marginTop="40dp"/>
+
+</LinearLayout>
